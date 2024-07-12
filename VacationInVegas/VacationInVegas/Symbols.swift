@@ -24,7 +24,7 @@ struct Symbols: View {
                 .font(.largeTitle)
                 .imageScale(.large)
                 .foregroundStyle(.teal)
-                .symbolEffect(.wiggle)
+                .symbolEffect(.pulse)
 
             Image(systemName: "wifi")
                 .font(.largeTitle)
@@ -54,8 +54,8 @@ struct Symbols: View {
             Image(systemName: "arrow.counterclockwise.square")
                 .font(.largeTitle)
                 .imageScale(.large)
-                .foregroundStyle(.blue.mix(with: .red, by: 0.25))
-                .symbolEffect(.rotate, value: shouldIRotate)
+                .foregroundStyle(.blue)
+                .symbolEffect(.pulse, value: shouldIRotate)
                 .onTapGesture {
                     shouldIRotate.toggle()
                 }
@@ -64,7 +64,7 @@ struct Symbols: View {
                 .font(.largeTitle)
                 .imageScale(.large)
                 .foregroundStyle(.yellow)
-                .symbolEffect(.breathe)
+                .symbolEffect(.pulse)
         }
         .padding()
     }

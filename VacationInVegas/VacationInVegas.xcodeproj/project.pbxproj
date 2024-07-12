@@ -14,6 +14,8 @@
 		0641AA842C3EEE7800850BEA /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0641AA832C3EEE7800850BEA /* Symbols.swift */; };
 		0641AA862C3EF93100850BEA /* ScrollImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0641AA852C3EF93100850BEA /* ScrollImage.swift */; };
 		0641AA882C3EFCB400850BEA /* Scrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0641AA872C3EFCB400850BEA /* Scrolling.swift */; };
+		06E541522C4142A200F60043 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E541512C4142A200F60043 /* Place.swift */; };
+		06E541542C414B4400F60043 /* PlaceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E541532C414B4400F60043 /* PlaceList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		0641AA832C3EEE7800850BEA /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
 		0641AA852C3EF93100850BEA /* ScrollImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollImage.swift; sourceTree = "<group>"; };
 		0641AA872C3EFCB400850BEA /* Scrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrolling.swift; sourceTree = "<group>"; };
+		06E541512C4142A200F60043 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		06E541532C414B4400F60043 /* PlaceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +63,11 @@
 			children = (
 				0641AA752C3EEB8A00850BEA /* VacationInVegasApp.swift */,
 				0641AA772C3EEB8A00850BEA /* ContentView.swift */,
+				06E541532C414B4400F60043 /* PlaceList.swift */,
 				0641AA832C3EEE7800850BEA /* Symbols.swift */,
 				0641AA852C3EF93100850BEA /* ScrollImage.swift */,
 				0641AA872C3EFCB400850BEA /* Scrolling.swift */,
+				06E541512C4142A200F60043 /* Place.swift */,
 				0641AA792C3EEB8E00850BEA /* Assets.xcassets */,
 				0641AA7B2C3EEB8E00850BEA /* Preview Content */,
 			);
@@ -148,7 +154,9 @@
 			files = (
 				0641AA842C3EEE7800850BEA /* Symbols.swift in Sources */,
 				0641AA862C3EF93100850BEA /* ScrollImage.swift in Sources */,
+				06E541542C414B4400F60043 /* PlaceList.swift in Sources */,
 				0641AA882C3EFCB400850BEA /* Scrolling.swift in Sources */,
+				06E541522C4142A200F60043 /* Place.swift in Sources */,
 				0641AA782C3EEB8A00850BEA /* ContentView.swift in Sources */,
 				0641AA762C3EEB8A00850BEA /* VacationInVegasApp.swift in Sources */,
 			);
